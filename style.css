@@ -1,0 +1,36 @@
+body{
+	background-color: #011f3f;
+	align-items: center;
+}
+h1{
+	font-family: 'Monoton', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+}
+div{
+	align-items: center;
+}
+button{
+	height: 175px;
+	width: 175px;
+	margin: 35px 35px;
+	border: solid 10px black;
+	border-radius: 25%;
+	position: absolute;
+
+}
+.b1{
+	margin: 60px auto auto 500px;
+	
+}
+.b2{
+	margin: 60px auto auto 750px;
+}
+.b3{
+	margin: 300px auto auto 500px;
+}
+.b4{
+	margin: 300px auto auto 750px;
+}
