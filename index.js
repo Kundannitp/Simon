@@ -28,20 +28,21 @@ function checker(){
 		else
 		{
 			drum(5);
+			$("h1").text("Game Over ! Press  any  key  to  continue");
 		}
 }
-$(document).on("keypress",function(event){
-	if(event.key=='a')
-	{
+$(document).on("keypress",function(){
 		level=1;
+		var a3=a.length;
+		for(var i1=0;i1<a3;i1++){
+			a.pop();
+		}
 		$("h1").text("Level "+level);
 		document.getElementsByTagName("button")[0].disabled=false;
 		document.getElementsByTagName("button")[1].disabled=false;
 		document.getElementsByTagName("button")[2].disabled=false;
 		document.getElementsByTagName("button")[3].disabled=false;
-
 		newlevel();
-	}
 });
 function newlevel(){
 	var a4=b.length;
