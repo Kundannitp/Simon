@@ -15,7 +15,13 @@ document.getElementsByTagName("button")[2].disabled=true;
 document.getElementsByTagName("button")[3].disabled=true;
 function checker(){
 		console.log("b is: "+b);
-		if(b[b.length-1]==a[b.length-1])
+		var z;
+		for(z=0;z<b.length;z++)
+		{
+			if(b[z]!=a[z])
+				break;
+		}
+		if(z==b.length)
 		{
 			if(b.length==a.length)
 			{
